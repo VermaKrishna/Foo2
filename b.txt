@@ -1,1 +1,12 @@
-Hello
+git push -u origin master
+
+git remote remove origin
+git remote add origin https://github.com/VermaKrishna/Foo2.git
+git remote -v
+
+git push -u origin master
+git pull origin master
+git merge origin/master
+git fetch origin master
+git status
+git commit a.txt -m "add"
